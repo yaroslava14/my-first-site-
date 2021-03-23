@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <form>
+        <h1>Анкета ученика</h1>
+        <fieldset>
+            <legend>контактная информация</legend><input type="text" placeholder="введите имя"><br><input type="number" placeholder="введите номер телефона"><br><input type="email" placeholder="введите email">
+        </fieldset>
+        <fieldset>
+            <legend>личная информация</legend><label>ваш возраст</label><input type="text"><br><label>дата рождения</label><input type="date"><br><label>по какому курсу занимаетесь</label><select>
+                <option>сайты</option>
+                <option>курс по фигме</option>
+                <option>c++</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Обратная связь</legend>
+
+            <label>Посоветуете ли Вы нас друзьям?</label>
+
+            <input name="feedback" type="radio" id="cheked1" />
+
+            <label class="radio" for="cheked1">Да</label>
+
+            <input name="feedback" type="radio" id="cheked2" />
+
+            <label class="radio" for="cheked2">Конечно</label>
+
+            <input name="feedback" type="radio" id="cheked3" />
+
+            <label class="radio" for="cheked3">Разве могут быть другие варианты?</label>
+            <label>Оставьте комментарий</label><textarea></textarea>
+        </fieldset>
+        <input type="checkbox"> <label class="radio">Разрешить обработку данных</label><input type="checkbox"> <label class="radio">Отправлять новости на почту</label>
+        <input type="submit" value="Отправить">
+    </form>
+
+</body>
+
+</html>

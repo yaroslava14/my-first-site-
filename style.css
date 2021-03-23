@@ -1,0 +1,45 @@
+body {
+
+    background-image: url(f5f09fe9ca8e90a0c39835a322e34ff9.jpg)
+}
+
+input,
+select {
+    padding: 15px;
+    width: 300px;
+    margin-top: 10px;
+
+}
+
+form {
+
+    width: 500px;
+    text-align: center;
+    background-color: Thistle;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+legend {
+    text-align: left;
+}
+
+label {
+    display: block;
+    text-align: left;
+
+}
+
+.radio {
+    display: inline-block;
+
+}
+
+input[type=radio] {
+
+    width: 13px;
+
+
+}
+
